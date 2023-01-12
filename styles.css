@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #2DCDDF;
+    height: 2800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#header {
+    width: 100%;
+    height: 110px;
+    background-color: #6C00FF;
+    position: relative;
+}
+
+#navbar {
+    position: top;
+    /* bottom: 0; */
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+    list-style-type: none;
+}
+
+.nav {
+    display: inline;
+    margin: 20px;
+    font-size: 18pt;
+    color: #F2DEBA;
+}
+
+li.nav:hover {
+    cursor: pointer;
+    background-color: rgb(182, 22, 231);
+}
+
+#menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#photo {
+    height: 1155px;
+    width: 100%;
+    background-image: url("./assets/nature-image.png");
+    background-size: cover;
+    background-position: top;
+    text-align: center;
+}
+
+#splash-text {
+    padding-top: 340px;
+    font-size: 5em;
+    font-style: italic;
+    color: white;
+}
+
+#content {
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 800px;
+}
+
+.card {
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    transition: 0.3s;
+    width: 30%;
+    background-color: #F2DEBA;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3);
+}
+
+.card-text {
+    margin: 80px auto 80px auto;
+    padding: 2px 16px;
+    text-align: center;
+}
+
+#footer {
+    background-color: #3C79F5;
+    height: 600px;
+    width: 100%;
+    color: #F2DEBA;
+    display: flex;
+}
+
+#footer-content {
+    width: 80%;
+    height: 500px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.link-list {
+    width: 300px;
+    text-align: left;
+}
+
+.link-list-header {
+    margin-bottom: 5px;
+}
+
+.footer-links {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+ul.footer-links li:hover {
+    color: #2DCDDF;
+    cursor: pointer;
+}
+
